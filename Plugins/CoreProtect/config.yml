@@ -40,7 +40,7 @@ max-radius: 100
 rollback-items: true
 
 # If enabled, entities, such as killed animals, will be included in rollbacks.
-rollback-entities: false
+rollback-entities: true
 
 # If enabled, generic data, like zombies burning in daylight, won't be logged.
 skip-generic-data: true
@@ -145,4 +145,4 @@ player-sessions: true
 username-changes: true
 
 # Logs changes made via the plugin "WorldEdit" if it's in use on your server.
-worldedit: true
+worldedit: false
