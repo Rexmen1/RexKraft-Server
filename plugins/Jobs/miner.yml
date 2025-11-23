@@ -1,0 +1,258 @@
+Miner:
+  fullname: Miner
+  shortname: M
+  FullDescription:
+  - "Earns money mining minerals and ores."
+  ChatColour: DARK_GRAY
+  chat-display: full
+  max-level: 250
+  leveling-progression-equation: 500*joblevel*(1+(Joblevel/100))
+  income-progression-equation: baseincome * joblevel
+  points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)
+  experience-progression-equation: baseexperience
+  rejoinCooldown: 3600
+  Gui:
+    Item: netherite_pickaxe
+  TNTBreak:
+    stone:
+      income: 0.10
+      experience: 0.5
+    granite:
+      income: 0.15
+      experience: 0.60
+    diorite:
+      income: 0.15
+      experience: 0.60
+    andesite:
+      income: 0.15
+      experience: 0.60
+    deepslate:
+      income: 0.15
+      experience: 0.60
+  Break:
+    pointed_dripstone:
+      income: 0.10
+      experience: 0.25
+    dripstone_block:
+      income: 0.10
+      experience: 0.25
+    andesite:
+      income: 0.15
+      experience: 0.75
+    stone:
+      income: 0.05
+      experience: 0.50
+    tuff:
+      income: 0.15
+      experience: 0.75
+    End_stone:
+      income: 0.10
+      experience: 0.70
+    basalt:
+      income: 0.10
+      experience: 0.60
+    deepslate:
+      income: 0.075
+      experience: 0.50
+    granite:
+      income: 0.15
+      experience: 0.75
+    diorite:
+      income: 0.15
+      experience: 0.75
+    sandstone:
+      income: 0.15
+      experience: 0.75
+    chiseled_sandstone:
+      income: 0.15
+      experience: 0.75
+    cut_sandstone:
+      income: 0.15
+      experience: 0.75
+    coal_ore:
+      income: 2.5
+      experience: 10.0
+    deepslate_coal_ore:
+      income: 2.5
+      experience: 10.0
+
+    redstone_ore:
+      income: 3.0
+      experience: 12.0
+    deepslate_redstone_ore:
+      income: 3.0
+      experience: 12
+
+    copper_ore:
+      income: 2.5
+      experience: 10.0
+    deepslate_copper_ore:
+      income: 2.5
+      experience: 10.0
+    raw_copper_block:
+      income: 2.5
+      experience: 10.0
+      
+    iron_ore:
+      income: 5.0
+      experience: 20
+    deepslate_iron_ore:
+      income: 5.0
+      experience: 20
+    raw_iron_block:
+      income: 5.0
+      experience: 20
+
+    gold_ore:
+      income: 5.0
+      experience: 20
+    deepslate_gold_ore:
+      income: 5.0
+      experience: 20
+    raw_gold_block:
+      income: 5.0
+      experience: 20
+      
+    lapis_ore:
+      income: 5.0
+      experience: 20
+    deepslate_lapis_ore:
+      income: 5.0
+      experience: 20
+
+    diamond_ore:
+      income: 25.00
+      experience: 100.0
+    deepslate_diamond_ore:
+      income: 25.00
+      experience: 100.0
+
+    emerald_ore:
+      income: 100
+      experience: 500
+    deepslate_emerald_ore:
+      income: 100
+      experience: 500
+
+    nether_quartz_ore:
+      income: 0.50
+      experience: 4.0
+    nether_gold_ore:
+      income: 0.50
+      experience: 4.0
+    obsidian:
+      income: 0.25
+      experience: 1.0
+    netherrack:
+      income: 0.025
+      experience: 0.25
+    prismarine:
+      income: 0.2
+      experience: 0.85
+    dark_prismarine:
+      income: 0.2
+      experience: 0.85
+    terracotta:
+      income: 0.10
+      experience: 0.60
+    orange_terracotta:
+      income: 0.10
+      experience: 0.60
+    light_gray_terracotta:
+      income: 0.10
+      experience: 0.60
+    white_terracotta:
+      income: 0.10
+      experience: 0.60
+    yellow_terracotta:
+      income: 0.10
+      experience: 0.60
+    red_terracotta:
+      income: 0.10
+      experience: 0.60
+    brown_terracotta:
+      income: 0.10
+      experience: 0.60
+      
+    smooth_basalt:
+      income: 0.10
+      experience: 0.60
+    amethyst_block:
+      income: 0.20
+      experience: 0.60
+    calcite:
+      income: 0.10
+      experience: 0.60
+    budding_amethyst:
+      income: 0.20
+      experience: 0.60
+    blackstone:
+      income: 0.10
+      experience: 0.60
+    sculk:
+      income: 0.10
+      experience: 0.60
+  Place:
+    coal_ore:
+      income: -2.5
+      experience: -10.0
+    deepslate_coal_ore:
+      income: -2.5
+      experience: -10.0
+    redstone_ore:
+      income: -3.0
+      experience: -12.0
+    deepslate_redstone_ore:
+      income: -3.0
+      experience: -12
+    copper_ore:
+      income: -2.5
+      experience: -10.0
+    deepslate_copper_ore:
+      income: -2.5
+      experience: -10.0
+    raw_copper_block:
+      income: -2.5
+      experience: -10.0
+    iron_ore:
+      income: -5.0
+      experience: -20
+    deepslate_iron_ore:
+      income: -5.0
+      experience: -20
+    raw_iron_block:
+      income: -5.0
+      experience: -20   
+    gold_ore:
+      income: -5.0
+      experience: -20
+    deepslate_gold_ore:
+      income: -5.0
+      experience: -20
+    raw_gold_block:
+      income: -5.0
+      experience: -20         
+    lapis_ore:
+      income: -5.0
+      experience: -20
+    deepslate_lapis_ore:
+      income: -5.0
+      experience: -20
+    diamond_ore:
+      income: -25.00
+      experience: -100.0
+    deepslate_diamond_ore:
+      income: -25.00
+      experience: -100.0
+    emerald_ore:
+      income: -100
+      experience: -500
+    deepslate_emerald_ore:
+      income: -100
+      experience: -500
+    nether_quartz_ore:
+      income: -0.50
+      experience: -4.0
+    nether_gold_ore:
+      income: -0.50
+      experience: -4.0

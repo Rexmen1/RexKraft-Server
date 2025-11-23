@@ -1,0 +1,116 @@
+Hunter:
+  fullname: Hunter
+  shortname: H
+  FullDescription:
+  - "Earns money killing animals and monsters."
+  ChatColour: RED
+  chat-display: full
+  max-level: 250
+  leveling-progression-equation: (joblevel - 1) * 50 + 50
+  income-progression-equation: baseincome*(1+(joblevel-1)*0.01)
+  points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)
+  experience-progression-equation: baseexperience
+  rejoinCooldown: 3600
+  Gui:
+    Item: bow
+  Tame:
+    Wolf:
+      income: 15.0
+      experience: 15.0
+    Ocelot:
+      income: 15.0
+      experience: 15.0
+    Horse:
+      income: 15.0
+      experience: 15.0
+  Kill:
+    Chicken:
+      income: 3.0
+      experience: 1.2
+    Cow:
+      income: 3.0
+      experience: 1.2
+    Pig:
+      income: 3.0
+      experience: 1.2
+    Sheep:
+      income: 3.0
+      experience: 1.2
+    Wolf:
+      income: 3.0
+      experience: 1.2
+    Creeper:
+      income: 2.0
+      experience: 0.5
+    Skeleton:
+      income: 2.0
+      experience: 0.5
+    Spider:
+      income: 2.0
+      experience: 0.5
+    wither_skeleton:
+      income: 2.5
+      experience: 1.5
+    Zombie:
+      income: 2.0
+      experience: 0.5
+    BLAZE:
+      income: 2.0
+      experience: 0.5
+    CAVE_SPIDER:
+      income: 2.0
+      experience: 0.5
+    ENDERMAN:
+      income: 0.25
+      experience: 0.10
+    GHAST:
+      income: 10
+      experience: 5
+    IRON_GOLEM:
+      income: 10
+      experience: 5
+    mushroom_cow:
+      income: 3.0
+      experience: 1.2
+    SILVERFISH:
+      income: 3.0
+      experience: 0.5
+    SNOWMAN:
+      income: 3.0
+      experience: 1.2
+    RABBIT:
+      income: 3.0
+      experience: 1.2
+    GUARDIAN:
+      income: 0.05
+      experience: 0.05
+    SHULKER:
+      income: 2
+      experience: 0.5
+    PHANTOM:
+      income: 20
+      experience: 20
+    DROWNED:
+      income: 3.0
+      experience: 1.2
+    HUSK:
+      income: 3.0
+      experience: 1.2
+    WITHER:
+      income: 25
+      experience: 150
+    ENDER_DRAGON:
+      income: 50
+      experience: 250
+    PILLAGER:
+      income: 3
+      experience: 0.5
+    RAVAGER: 
+      income: 20
+      experience: 50
+    WARDEN:
+      income: 20
+      experience: 50
+    EVOKER:
+      income: 20
+      experience: 20

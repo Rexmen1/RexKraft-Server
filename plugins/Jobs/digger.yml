@@ -1,0 +1,58 @@
+Digger:
+  fullname: Digger
+  shortname: D
+  FullDescription:
+  - "Earns money for terraforming the world."
+  ChatColour: GOLD
+  chat-display: full
+  max-level: 250
+  leveling-progression-equation: 125*joblevel*(1+(Joblevel/100))
+  income-progression-equation: baseincome * joblevel
+  points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)
+  experience-progression-equation: baseexperience
+  rejoinCooldown: 3600
+  Gui:
+    Item: netherite_shovel
+  Break:
+    mud:
+      income: 0.10
+      experience: 0.50
+    red_sand:
+      income: 0.10
+      experience: 0.50
+    coarse_dirt:
+      income: 0.25
+      experience: 0.50
+    dirt:
+      income: 0.1
+      experience: 0.50
+    mycelium:
+      income: 0.25
+      experience: 1
+    grass_block:
+      income: 0.20
+      experience: 1
+    gravel:
+      income: 0.25
+      experience: 1
+    sand:
+      income: 0.1
+      experience: 0.50
+    clay:
+      income: 0.25
+      experience: 1
+    soul_sand:
+      income: 0.07
+      experience: 0.60
+    soul_soil:
+      income: 0.07
+      experience: 0.60
+    snow_block:
+      income: 0.05
+      experience: 0.50
+    podzol:
+      income: 0.1
+      experience: 0.50
+    rooted_dirt:
+      income: 0.05
+      experience: 0.50

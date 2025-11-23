@@ -1,0 +1,308 @@
+Farmer:
+  fullname: Farmer
+  shortname: Fa
+  FullDescription:
+  - "Earns money farming crops."
+  ChatColour: BLUE
+  chat-display: full
+  max-level: 250
+  leveling-progression-equation: (joblevel - 1) * 500 + 500
+  income-progression-equation: baseincome * joblevel
+  points-progression-equation: basepoints
+  experience-progression-equation: baseexperience
+  rejoinCooldown: 3600
+  Gui:
+    Item: netherite_hoe
+  Tame:
+    Wolf:
+      income: 1.0
+      experience: 1.0
+    Horse:
+      income: 1.0
+      experience: 1.0
+    Parrot:
+      income: 1.0
+      experience: 1.0
+    Ocelot:
+      income: 1.0
+      experience: 1.0
+    Llama:
+      income: 1.0
+      experience: 1.0
+  Breed:
+    Horse:
+      income: 2.5
+      experience: 10.0
+    Sheep:
+      income: 2.5
+      experience: 10.0
+    Cow:
+      income: 2.5
+      experience: 10.0
+    mushroom_cow:
+      income: 2.5
+      experience: 10.0
+    Pig:
+      income: 2.5
+      experience: 10.0
+    Chicken:
+      income: 2.5
+      experience: 10.0
+    Wolf:
+      income: 2.5
+      experience: 10.0
+    Ocelot:
+      income: 2.5
+      experience: 10.0
+    Rabbit:
+      income: 2.5
+      experience: 10.0
+    Llama:
+      income: 2.5
+      experience: 10.0
+    Turtle:
+      income: 2.5
+      experience: 10.0
+  Shear:
+    Red:
+      income: 2.5
+      experience: 0.5
+    Orange:
+      income: 2.5
+      experience: 0.5
+    Yellow:
+      income: 2.5
+      experience: 0.5
+    Green:
+      income: 2.5
+      experience: 0.5
+    Blue:
+      income: 2.5
+      experience: 0.5
+    Light_Blue:
+      income: 2.5
+      experience: 0.5
+    Magenta:
+      income: 2.5
+      experience: 0.5
+    Pink:
+      income: 2.5
+      experience: 0.5
+    White:
+      income: 2.5
+      experience: 0.5
+    Light_Gray:
+      income: 2.5
+      experience: 0.5
+    Black:
+      income: 2.5
+      experience: 0.5
+    Brown:
+      income: 2.5
+      experience: 0.5
+    Purple:
+      income: 2.5
+      experience: 0.5
+    Cyan:
+      income: 2.5
+      experience: 0.5
+    Gray:
+      income: 2.5
+      experience: 0.5
+    Lime:
+      income: 2.5
+      experience: 0.5
+  Milk:
+    Cow:
+      income: 2.5
+      experience: 0.5
+  Break:
+    bamboo:
+      income: 0.15
+      experience: 0.50
+      points: 0.10
+    chorus_plant:
+      income: 0.20
+      experience: 0.5
+      points: 0.10
+    chorus_flower:
+      income: 0.20
+      experience: 0.5
+      points: 0.10
+    beetroots-3:
+      income: 0.20
+      experience: 0.5
+      points: 0.10
+    wheat-7:
+      income: 0.20
+      experience: 0.5
+      points: 0.10
+    carrots-7:
+      income: 0.20
+      experience: 0.5
+      points: 0.10
+    potatoes-7:
+      income: 0.20
+      experience: 0.5
+      points: 0.10
+    pumpkin:
+      income: 0.20
+      experience: 0.5
+      points: 0.10
+    melon:
+      income: 0.20
+      experience: 0.5
+      points: 0.10
+    sugar_cane:
+      income: 0.20
+      experience: 0.5
+      points: 0.10
+    cocoa-2:
+      income: 0.20
+      experience: 0.5
+      points: 0.10
+    oak_sapling:
+      income: 0.25
+      experience: 0.5
+      points: 0.10
+    spruce_sapling:
+      income: 0.25
+      experience: 0.5
+      points: 0.10
+    birch_sapling:
+      income: 0.25
+      experience: 0.5
+      points: 0.10
+    jungle_sapling:
+      income: 0.25
+      experience: 0.5
+      points: 0.10
+    acacia_sapling:
+      income: 0.25
+      experience: 0.5
+      points: 0.10
+    dark_oak_sapling:
+      income: 0.25
+      experience: 0.5
+      points: 0.10
+    lily_pad:
+      income: 0.25
+      experience: 0.5
+      points: 0.10
+    dandelion:
+      income: 0.25
+      experience: 0.5
+      points: 0.10
+    poppy:
+      income: 0.25
+      experience: 0.5
+      points: 0.10
+    blue_orchid:
+      income: 0.25
+      experience: 0.5
+      points: 0.10
+    allium:
+      income: 0.25
+      experience: 0.5
+      points: 0.10
+    azure_bluet:
+      income: 0.25
+      experience: 0.5
+      points: 0.10
+    red_tulip:
+      income: 0.25
+      experience: 0.5
+      points: 0.10
+    orange_tulip:
+      income: 0.25
+      experience: 0.5
+      points: 0.10
+    white_tulip:
+      income: 0.25
+      experience: 0.5
+      points: 0.10
+    pink_tulip:
+      income: 0.25
+      experience: 0.5
+      points: 0.10
+    oxeye_daisy:
+      income: 0.25
+      experience: 0.5
+      points: 0.10
+    brown_mushroom:
+      income: 0.25
+      experience: 0.5
+      points: 0.10
+    red_mushroom:
+      income: 0.25
+      experience: 0.5
+      points: 0.10
+    vine:
+      income: 0.15
+      experience: 0.5
+      points: 0.10
+    cactus:
+      income: 0.25
+      experience: 0.5
+      points: 0.10
+    nether_wart:
+      income: 0.15
+      experience: 0.5
+      points: 0.10
+    sweet_berry_bush-3:
+      income: 0.25
+      experience: 0.5
+      points: 0.10
+  Place:
+    sweet_berry_bush:
+      income: 0.05
+      experience: 0.05
+      points: 0.05
+    wheat:
+      income: 0.05
+      experience: 0.05
+      points: 0.05
+    potatoes:
+      income: 0.05
+      experience: 0.05
+      points: 0.05
+    carrots:
+      income: 0.05
+      experience: 0.05
+      points: 0.05
+    beetroots:
+      income: 0.05
+      experience: 0.05
+      points: 0.05
+    cocoa:
+      income: 0.05
+      experience: 0.05
+      points: 0.05
+    pumpkin_stem:
+      income: 0.05
+      experience: 0.05
+      points: 0.05
+    nether_wart:
+      income: 0.05
+      experience: 0.05
+      points: 0.05
+    melon_stem:
+      income: 0.05
+      experience: 0.05
+      points: 0.05
+  Collect:
+    sweet_berries-3:
+      income: 0.10
+      experience: 0.10
+    glow_berries:
+      income: 0.10
+      experience: 0.10
+    bonemeal:
+      income: 0.25
+      experience: 0.25
+    honeybottle:
+      income: 0.25
+      experience: 0.25
+    honeycomb:
+      income: 0.25
+      experience: 0.25

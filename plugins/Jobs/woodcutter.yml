@@ -1,0 +1,136 @@
+Woodcutter:
+  fullname: Woodcutter
+  shortname: W
+  FullDescription:
+  - "Earns money felling and planting trees"
+  ChatColour: GREEN
+  chat-display: full
+  max-level: 250
+  leveling-progression-equation: (joblevel - 1) * 100 + 100
+  income-progression-equation: baseincome * joblevel
+  points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)
+  experience-progression-equation: baseexperience
+  rejoinCooldown: 3600
+  Gui:
+    Item: netherite_axe
+  Break:
+    oak_log:
+      income: 0.25
+      experience: 0.25
+    spruce_log:
+      income: 0.25
+      experience: 0.25
+    birch_log:
+      income: 0.25
+      experience: 0.25
+    jungle_log:
+      income: 0.25
+      experience: 0.25
+    acacia_log:
+      income: 0.25
+      experience: 0.25
+    cherry_log:
+      income: 0.25
+      experience: 0.25
+    cherry_wood:
+      income: 0.25
+      experience: 0.25
+    pale_oak_wood:
+      income: 0.25
+      experience: 0.25
+    pale_oak_log:
+      income: 0.25
+      experience: 0.25
+    dark_oak_log:
+      income: 0.25
+      experience: 0.25
+    mangrove_log:
+      income: 0.25
+      experience: 0.25
+    stripped_pale_oak_log:
+      income: 0.25
+      experience: 0.25         
+    stripped_oak_log:
+      income: 0.25
+      experience: 0.25
+    stripped_spruce_log:
+      income: 0.25
+      experience: 0.25
+    stripped_birch_log:
+      income: 0.25
+      experience: 0.25
+    stripped_jungle_log:
+      income: 0.25
+      experience: 0.25
+    stripped_acacia_log:
+      income: 0.25
+      experience: 0.25
+    stripped_dark_oak_log:
+      income: 0.25
+      experience: 0.25
+    stripped_cherry_log:
+      income: 0.25
+      experience: 0.25
+    stripped_warped_hyphae:
+      income: 0.30
+      experience: 0.30
+    stripped_mangrove_log:
+      income: 0.25
+      experience: 0.25
+    warped_hyphae:
+      income: 0.40
+      experience: 0.40
+    stripped_crimson_hyphae:
+      income: 0.40
+      experience: 0.40
+    crimson_hyphae:
+      income: 0.40
+      experience: 0.40
+    stripped_crimson_stem:
+      income: 0.40
+      experience: 0.40
+    crimson_stem:
+      income: 0.40
+      experience: 0.40
+    stripped_warped_stem:
+      income: 0.40
+      experience: 0.40
+    warped_stem:
+      income: 0.40
+      experience: 0.40
+    oak_leaves:
+      income: 0.10
+      experience: 0.10
+    spruce_leaves:
+      income: 0.10
+      experience: 0.10
+    birch_leaves:
+      income: 0.10
+      experience: 0.10
+    jungle_leaves:
+      income: 0.10
+      experience: 0.10
+    acacia_leaves:
+      income: 0.10
+      experience: 0.10
+    cherry_leaves:
+      income: 0.10
+      experience: 0.10
+    dark_oak_leaves:
+      income: 0.10
+      experience: 0.10
+    mangrove_leaves:
+      income: 0.10
+      experience: 0.10
+    mushroom_stem:
+      income: 0.30
+      experience: 0.30
+    brown_mushroom_block:
+      income: 0.30
+      experience: 0.30
+    mangrove_roots:
+      income: 0.15
+      experience: 0.15
+    red_mushroom_block:
+      income: 0.30
+      experience: 0.30
